@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <!-- Highly Recommened to use Firefox  -->
+
+
+    <!-- Problem Statement -->
+    <!-- We are vintage car resellers; we sell every car whose production is discontinued. We would like to have a site which shows our team and the
+     cars we sold along with their prices. We would also like to have a space in the website where we can display all the cars which are ready to be sold
+                                       along with their bids. Customers can also bid on such cars in the page itself. -->
+
+
+
+
+
+    <!-- Team Detail:
+        .
+        .
+        .
+        .
+        .
+              Team name:Byte Rebels
+              Team size:Only one(1)
+              Team member name:Ajithmadhan K
+              Degree:Btech 2nd year IT
+              College name:Kalasalingam Academy of Research and Education
+              .
+              .
+              .
+              .
+              . Team Details-->
+
+
+    <!-- Linking the href and rel files -->
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Script files "I ma adding this here for my Convinent" -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Title -->
+    <title>The Vintage Store</title>
+
+</head>
+
+
+<body id="page-top">
+
+    <!-- Navigation  Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="pics\icons8-wheel-32.png" alt="icon">
+            </a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">The Vintage Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">Current Bid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Sold Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#qwerty">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End of Navigation Bar -->
+
+    <!-- Header Slider -->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide One  -->
+
+                <div class="carousel-item active" style="background-image: url('http://s1.picswalls.com/wallpapers/2014/06/18/vintage-cars-wide-wallpaper_054106600_44.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="txt-1">
+                            <h2 class="display-4">The Vintage Life is Back</h2>
+                            <p class="lead">Certified Used Cars from Trusted Sellers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Two  -->
+
+                <div class="carousel-item" style="background-image: url('http://s1.picswalls.com/wallpapers/2014/06/18/vintage-cars-hd_054105517_44.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="txt-2">
+                            <h2 class="display-4 ">BID-BUY-SELL</h2>
+                            <p class="lead">The Vintage Store</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Three  -->
+
+                <div class="carousel-item" style="background-image: url('http://s1.picswalls.com/wallpapers/2014/06/18/free-vintage-cars-wallpaper_054104521_44.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="txt-3">
+                            <h2 class="display-4">3 Months</h2>
+                            <p class="lead">Free Service and Care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Controls -->
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- End of Header -->
+
+    <!-- About Section -->
+
+    <!-- Team details -->
+    <section id="about">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="row text-center mb-3">
+                    <div class="col-md-12">
+                        <h1>Our Team</h1>
+                    </div>
+                </div>
+
+                <div class="row text-center mb-3">
+                    <div class="row">
+                        <div class="column">
+                            <h7>We are the aspiring young team of The Vintage Cars we started with a team of 3 and now we are almost around 10.We the team have a extra-ordinary talent and energy to work through the bids. Be aware, though, of how this information
+                                can come across to professionals from different industries. What might be acceptable for a creative site might not go over so well in the finance or legal industries. It’s also important to consider how a site’s visitors
+                                will perceive a humorous or campy touch. While it adds personality, if overdone or done in the wrong industries, it can come across as unprofessional.
+                            </h7>
+                        </div>
+                        <div class="column">
+                            <img src="https://images.assetsdelivery.com/compings_v2/vadimgozhda/vadimgozhda1506/vadimgozhda150604084.jpg" alt="team">
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!-- End of the Team details -->
+
+                <!-- The owner flip card -->
+
+                <div class="row text-center mb-3">
+                    <div class="col-md-12">
+                        <h1>The Owners</h1>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="wrap">
+                        <div class="side-a"></div>
+                        <div class="side-b"></div>
+                    </div>
+                    <div class="wrap">
+                        <div class="side-a1"></div>
+                        <div class="side-b1"></div>
+                    </div>
+                    <div class="wrap">
+                        <div class="side-a2"></div>
+                        <div class="side-b"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End of flip card -->
+
+    </section>
+
+    <!-- End of ABOUT Section -->
+    <br>
+    <br>
+
+    <!-- On going Bid Section -->
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col-md-12">
+                    <h1><b>On Going Bid</b></h1>
+                    <h5>The Bid ends in...</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="countdown"></div>
+                <br>
+                <br>
+                <div class="col-lg-8 mx-auto">
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://coolmaterial.com/wp-content/uploads/2012/05/1969-Chevrolet-Camaro.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Datsun 240Z</h5>
+                                <p class="card-text"> Beautiful look as the Jag with perhaps more brains underneath.</p>
+                                <h9>Current Bid<b>₹1,50,000</b></h9>
+                                <br>
+                                <br>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">₹</span>
+                                    </div>
+                                    <input type="number" class="form-control" placeholder="your Bid" min="150000" step="5000" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                <a href="#" class="btn btn-primary">BID</a>
+                            </div>
+                        </div>
+                        <div class="row text-center mb-3">
+                            <div class="container">
+                                <div class="col-md-12">
+                                    <div class="txt_center">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <h1>Have fun Biding</h1>
+                                        <h5>Remember the Highest Bid always Owns the Car</h5>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Biding Section -->
+
+
+    <!-- Sold Car Section -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col-md-12">
+                    <h1>Sold Cars</h1>
+                    <h4>Top Lists of Highest Bid of Sold Famous Cars</h4>
+                    <h6 class="ajith_lightclr">Swipe>>></h6>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- Swiper -->
+
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/800px-Duesenberg_Convertible_SJ_LA_Grand_Dual-Cowl_Phaeton_1.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>LA Phaeton</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 6.77 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/1957-corvette-hugo90778-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Corvette</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 5.44 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/aston-martin-db9-2-buildscharacter433-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Aston Martin</h5>
+                                            <h7> DB9</h7>
+                                            <h4 class="pt-1 pb-2">Rs. 2.36 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/the-enzo-storem163-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Ferrari </h5>
+                                            <h7> Enzo</h7>
+                                            <h4 class="pt-1 pb-2">Rs. 9.02 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/reliant-regal-supervan-e3-sludgegulper132-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Reliant Robin</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 5.45 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/The_Loremo_LS_at_the_2006_Geneva_Auto_Show.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Loremo LS</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 6.77 Lac</h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/cooters-dukes-of-hazard-museum-cliffl.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Dodge Charger</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 9.23Lac</h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/img_4023-simon-davison631-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Rolls Royce Phantom</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 7.23 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/1950-studebaker-commander-cstreet.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Studebaker Commander</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 5.24 Lac</h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/techart-tuned-porsche-911-turbo-carspotter405-l.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Porsche 911</h5>
+                                            <h4 class="pt-1 pb-2">Rs. 7.35 Lac</h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="https://img.gaadicdn.com/images/carexteriorimages/upcoming/360x240/Jeep/Jeep-Renegade/047.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Shelby Mustang Cobra</h5>
+                                            <h4 class="pt-1 pb-2">Rs.9.35 Lac</h4>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <div class="card-img"><img src="http://www.truckchamp.com/60%20Iconic%20and%20Classic%20Cars_files/1978_Trans-Am.jpg"></div>
+                                        <div class="card-body">
+                                            <h5>Pontiac Firebird </h5>
+                                            <h4 class="pt-1 pb-2">Rs. 6.77 Lac</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- End of Slider -->
+
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!--  Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Sold cars Section -->
+
+    <!-- Contact us Section -->
+
+    <section id="qwerty" class="bg-light">
+        <div class="row text-center mb-3">
+            <div class="col-md-12">
+                <h1><b>Contact Us</b></h1>
+                <h7>Feel free to contact us</h7>
+            </div>
+        </div>
+
+        <div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+            </div>
+
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--End of Contact us Section -->
+
+
+
+
+    <!-- Script deffer source "I am adding this here so that it will be convinenint for connecting with backend" -->
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row text-center mb-3">
+            <div class="col-md-12">
+                <h6>Follow us in</h6>
+
+            </div>
+        </div>
+        <div class="rounded-social-buttons">
+            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <br>
+        <div class="row text-center mb-3">
+            <div class="col-md-12">
+                <h6> © Copyright 2020 Ajithmadhan. All rights reserved.</h6>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of footer -->
+
+
+    <!-- In Built  -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
